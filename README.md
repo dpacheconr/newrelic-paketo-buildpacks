@@ -84,7 +84,7 @@ pack build CONTAINERNAME -p ./PATHTOJAVAAPP -b ./PATHTOLOCALBUILDPACK -b paketo-
 **Configuration settings precedence**
  
 
-![Settings precedence](https://docs.newrelic.com/static/60ca967eab99ca225186310913ae2de6/8c557/java-config-cascade.png)
+![Settings precedence](https://docs.newrelic.com/static/java-config-cascade-bb36c948f6227353b43c253c234092df.png)
 
 With the Java agent, server-side configuration overrides all other settings.
 Environment variables override Java system properties.
@@ -93,7 +93,7 @@ User settings override the newrelic.yml default settings.
 <br/>
 Please refer to New Relic Java agent documentation for more information
 
-[https://docs.newrelic.com/docs/apm/agents/java-agent/configuration/java-agent-configuration-config-file/#config-options-precedence](https://docs.newrelic.com/static/60ca967eab99ca225186310913ae2de6/8c557/java-config-cascade.png)
+https://docs.newrelic.com/docs/apm/agents/java-agent/configuration/java-agent-configuration-config-file
 
 <br/>
 By default the Java agent configuration file will be located at /layers/newrelic_java/nr-agent-java/newrelic.yml and for NodeJs and Python at your application root folder, this can be overwritten at runtime, with configmap for kubernetes deployments.
